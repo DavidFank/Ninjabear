@@ -38,6 +38,8 @@ battle = Battle.new(bear, ninja)
 # puts battle.fight 
 # puts battle.fight 
 
+##This is only a test
+
 puts " Today we will be Witnessing the weirdest battle of all time"
 until battle.fighter1.health <= 0 || battle.fighter2.health <= 0
 	battle.fight
